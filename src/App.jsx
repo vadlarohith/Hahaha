@@ -58,7 +58,8 @@ function App() {
   const texts = [
     "Hey Hai...", 
     "Hope you are good",
-    "It's just a normal complement",
+    "Em anukoku, it's just a normal complement anuko😅",
+    "Let's Start➡➡",
     "Seeing you in a Saree, especially in a Green Saree💚💚💚", 
     "It's just a WOWWWwwwwwwwwww", 
     "I Like it💚", 
