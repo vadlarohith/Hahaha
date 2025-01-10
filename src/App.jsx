@@ -57,6 +57,8 @@ function App() {
 
   const texts = [
     "Hey Hai...", 
+    "Hope you are good",
+    "It's just a normal complement",
     "Seeing you in a Saree, especially in a Green Saree💚💚💚", 
     "It's just a WOWWWwwwwwwwwww", 
     "I Like it💚", 
@@ -64,7 +66,8 @@ function App() {
     "Oka pickup line gurthocchindhi em anukoku😛", 
     "Your green saree is stunning, but it’s your smile that makes the color truly come alive.", 
     "Hahaha😛😛", 
-    "Okay Bye Bye👋👋👋 Take Care"
+    "Thappulu emaina unte kshaminchu, Asalu meaning e lekapothe manninchu🙂",
+    "Okay Bye Bye👋👋👋 Take Care",
   ];
   
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -86,7 +89,7 @@ function App() {
         <h1 className={sliding ? 'slide' : ''}>{text}</h1>
         {currentIndex < texts.length - 1 && (
           <button className="change-text-button" onClick={handleClick}>
-            Change Text
+            Read more...
           </button>
         )}
       </div>
