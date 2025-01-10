@@ -1,0 +1,98 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+  }
+  body {
+    background: url('https://img.freepik.com/premium-photo/illustration-women-wearing-jewellery-green-saree-swinging-swing-nature-background-generative-ai_852336-40224.jpg?w=360') no-repeat center/cover;
+    backdrop-filter: brightness(50%);
+  }
+  
+  /* Centering the section */
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Section styles */
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Great Vibes', cursive;
+    white-space: pre-line;
+    font-size: 3rem;
+    color: #FFDD77;
+    font-weight: bold;
+    margin-bottom: 20px;
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 0.5s ease;
+  }
+  
+  /* Slide up and down effect */
+  h1.slide {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  
+  /* Button styling */
+  .change-text-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .change-text-button:hover {
+    background-color: #63d17d;
+  }
+  
+
+
+  .change-text-button {
+    padding: 14px 28px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .change-text-button:hover {
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+        

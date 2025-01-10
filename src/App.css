@@ -1,0 +1,56 @@
+body {
+  background: url('https://img.freepik.com/premium-photo/illustration-women-wearing-jewellery-green-saree-swinging-swing-nature-background-generative-ai_852336-40224.jpg?w=360') no-repeat center/cover;
+  backdrop-filter: brightness(50%);
+}
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centering the section */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Section styles */
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+.change-text-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.change-text-button:hover {
+  background-color: #45a049;
+}
+
