@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Hahaha/static/css/main.accecdf8.css",
-    "main.js": "/Hahaha/static/js/main.c85c934e.js",
+    "main.js": "/Hahaha/static/js/main.a76cd4f4.js",
     "index.html": "/Hahaha/index.html",
     "main.accecdf8.css.map": "/Hahaha/static/css/main.accecdf8.css.map",
-    "main.c85c934e.js.map": "/Hahaha/static/js/main.c85c934e.js.map"
+    "main.a76cd4f4.js.map": "/Hahaha/static/js/main.a76cd4f4.js.map"
   },
   "entrypoints": [
     "static/css/main.accecdf8.css",
-    "static/js/main.c85c934e.js"
+    "static/js/main.a76cd4f4.js"
   ]
 }
